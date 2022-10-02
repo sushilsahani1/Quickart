@@ -1,0 +1,48 @@
+body{
+    font-family:'Gotham Rounded', sans-serif;
+}
+
+.meraBox{
+    height:112px;
+}
+.secBox{
+    width:94px;
+    height:112px;
+}
+
+.imgBox{
+    width:64px;
+    height:64px;
+}
+.spanBox{
+    width:64px;
+    height:20px;
+}
+
+.navigationBar:hover{
+    transform:translateY(-5px);
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.searchBar{
+    width:600px;
+}
+
+.hoverEffect:hover{
+    color:black;
+}
+.hoverEffect{
+    color:blue;
+}
+
+::-webkit-scrollbar{
+    width:5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color:#555;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:#888;
+}
